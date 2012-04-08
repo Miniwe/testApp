@@ -1,20 +1,23 @@
 <h1>Welcome to the Rails Installer Demo !!!</h1>
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
-
-        <div id="include-in-html">
-		<h2>Enumeration</h2>
-		<ul>
-			<%(1..10).each do|i|%>
-				<li>number <%=i%></li>
-			<%end%>
-		</ul>
-		<h2>Environment variables</h2>
-		<table>
-			<%ENV.keys.sort.each do |key|%>
-				<tr>
-					<th><%=key%></th><td><%=ENV[key]%></td>
-				</tr>
-			<%end%>
-		</table>		
-		</div>
+<h1>v.0</h1>
+<p>
+	Find me in app/views/welcome/index.html.erb
+</p>
+<div id="include-in-html">
+	<h2>Enumeration</h2>
+	<ul>
+		<%(1..10).each do|i|%>
+		<li>
+			number <%= i%>
+		</li>
+		<%end%>
+	</ul>
+	<h2>Environment variables</h2>
+	<table>
+		<%ENV.keys.sort.each do |key|%>
+		<tr>
+			<th><%= key%></th><td><%= ENV[key]%></td>
+		</tr>
+		<%end%>
+	</table>
+</div>
