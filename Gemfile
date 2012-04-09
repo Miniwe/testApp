@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 
+require 'rubygems'
+require 'mongo'
+source 'http://gemcutter.org'
+
 gem 'rails', '3.2.3'
+gem "mongo_mapper"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
