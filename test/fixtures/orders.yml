@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  price: 1.5
+  vol_remain: 1
+  item_id: 1
+
+two:
+  price: 1.5
+  vol_remain: 1
+  item_id: 1

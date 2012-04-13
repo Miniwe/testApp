@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @item.name %>
+</p>
+
+<!-- <%
+=begin
+<p>
+  <b>Many:</b>
+  %= @item.many %
+</p>
+
+<p>
+  <b>Many:</b>
+ <%= @item.many %
+</p>
+=end
+%> -->
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>
